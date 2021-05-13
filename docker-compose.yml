@@ -12,7 +12,7 @@ services:
         environment:
         - NTBA_FIX_319=1
         - MONGO_URI=mongodb://mongo/admin
-        - TOKEN=<telegram-token>
+        - TOKEN=1829752328:AAF0uYKcUarmJCVQPp0qytlCOPij5qEnoQw
         depends_on:
         - mongo
         links:
